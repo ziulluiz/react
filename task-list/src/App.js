@@ -1,4 +1,4 @@
-import Task from "./components/Task";
+import List from './components/List'
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="task-app">
       <div className='tasks'>
         <h1>My tasks</h1>
-        <Task text= 'learn react'/>
+        <List/>
       </div>
     </div>
   );
